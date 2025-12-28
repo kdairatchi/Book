@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- EDIT THESE META TAGS FOR SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberCrimeFighter Books - Cybersecurity eBooks by Christopher Bell</title>
+    <meta name="description" content="Professional cybersecurity eBooks for beginners and experts. Learn ethical hacking, network defense, and web security from industry expert Christopher Bell.">
+    
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:title" content="CyberCrimeFighter Books - Cybersecurity eBooks">
+    <meta property="og:description" content="Professional cybersecurity eBooks for beginners and experts.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io">
+    <!-- EDIT: Add your actual cover image for social sharing -->
+    <meta property="og:image" content="https://yourusername.github.io/images/covers/book1.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🛡️</span>
+                <span class="logo-text">CyberCrimeFighter Books</span>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            
+            <div class="nav-links">
+                <a href="index.html" class="active">Store</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="legal.html">Legal</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Featured Book -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Master Cybersecurity with Hands-On eBooks</h1>
+                    <p class="hero-subtitle">Practical guides for aspiring ethical hackers, security analysts, and cyber defenders.</p>
+                    <div class="hero-buttons">
+                        <a href="#featured-book" class="btn btn-primary">View Featured Book</a>
+                        <a href="#books" class="btn btn-secondary">Browse All Books</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Book Section -->
+    <section id="featured-book" class="featured-section">
+        <div class="container">
+            <h2 class="section-title">Featured Book</h2>
+            <div id="featured-book-container" class="featured-book">
+                <!-- Dynamic content from books.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Grid with Search/Filter -->
+    <section id="books" class="books-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">All Books</h2>
+                <div class="filter-controls">
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="Search books..." aria-label="Search books">
+                    </div>
+                    <div class="tag-filters" id="tag-filters">
+                        <!-- Dynamic tags from books.json -->
+                    </div>
+                </div>
+            </div>
+            
+            <div id="books-grid" class="books-grid">
+                <!-- Dynamic content from books.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Readers Say</h2>
+            <div class="testimonials-grid" id="testimonials-container">
+                <!-- Dynamic content from books.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What format are the books?</h3>
+                    <p>All books are available in PDF, EPUB, and MOBI formats. You'll receive all three formats immediately after purchase.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are there any updates?</h3>
+                    <p>Yes! Purchasing a book gives you lifetime access to all future updates. You'll receive an email when new versions are released.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I get a refund?</h3>
+                    <p>Due to the digital nature of the products, we offer a 30-day satisfaction guarantee. If you're not happy, email us for a full refund.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are these books for beginners?</h3>
+                    <p>We have books for all skill levels! Look for the "Beginner" tag for introductory content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Capture -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-box">
+                <h2>Get Cybersecurity Tips & Updates</h2>
+                <p>Join our newsletter for free security tips, new book announcements, and exclusive discounts.</p>
+                <!-- EDIT: Replace with your Mailchimp form URL -->
+                <form action="https://yourusername.us20.list-manage.com/subscribe/post" method="POST" class="newsletter-form">
+                    <input type="hidden" name="u" value="your-u-value">
+                    <input type="hidden" name="id" value="your-id-value">
+                    <input type="email" name="MERGE0" placeholder="Your email address" required aria-label="Email address">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="newsletter-note">No spam. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">🛡️</span>
+                        <span class="logo-text">CyberCrimeFighter Books</span>
+                    </a>
+                    <p>Practical cybersecurity education by Christopher Bell (Kdairatchi)</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Store</h4>
+                        <a href="index.html">All Books</a>
+                        <a href="#featured-book">Featured</a>
+                        <a href="#books">Browse by Tag</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="legal.html">Privacy & Terms</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <!-- EDIT: Add your actual social links -->
+                        <a href="https://twitter.com/yourusername">Twitter</a>
+                        <a href="https://github.com/yourusername">GitHub</a>
+                        <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> CyberCrimeFighter Books. All rights reserved.</p>
+                <p>Created by Christopher Bell (Kdairatchi)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/app.js"></script>
+    <script>
+        // Initialize the storefront
+        document.addEventListener('DOMContentLoaded', function() {
+            loadBooks();
+            setupFilters();
+            setupMobileMenu();
+            
+            // Set current year in footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>
