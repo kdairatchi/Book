@@ -1,0 +1,83 @@
+{
+  "books": [
+    {
+      "id": "ccf-001",
+      "slug": "hacker-mindset-beginners",
+      "title": "The Hacker Mindset: A Beginner's Guide",
+      "subtitle": "Thinking Like a Cybersecurity Professional",
+      "description": "Learn the fundamental thought processes and methodologies used by ethical hackers and security researchers. Perfect for complete beginners.",
+      "longDescription": "This comprehensive guide breaks down the hacker mindset into actionable steps. You'll learn reconnaissance techniques, vulnerability assessment, basic exploit development, and how to approach security problems systematically. Includes real-world scenarios and exercises.",
+      "price": 29.99,
+      "featured": true,
+      "coverImage": "images/covers/book1.jpg",
+      "samplePdf": "samples/hacker-mindset-sample.pdf",
+      "stripeLink": "https://buy.stripe.com/test_00g4j36UJdWDf7O4gg",
+      "tags": ["Beginner", "Mindset", "Fundamentals"],
+      "details": {
+        "pages": 180,
+        "format": "PDF, EPUB, MOBI",
+        "updated": "2024-03-15",
+        "language": "English"
+      },
+      "testimonials": [
+        {
+          "text": "Finally a book that explains the hacker mindset without being overly technical!",
+          "author": "Alex R."
+        }
+      ]
+    },
+    {
+      "id": "ccf-002",
+      "slug": "network-defense-playbook",
+      "title": "Network Defense Playbook",
+      "subtitle": "Practical Strategies for Securing Networks",
+      "description": "Actionable strategies and techniques for defending modern networks against real-world attacks.",
+      "longDescription": "From firewall configurations to intrusion detection systems, this playbook provides step-by-step instructions for securing networks of all sizes. Includes configuration templates, monitoring scripts, and incident response checklists.",
+      "price": 39.99,
+      "featured": false,
+      "coverImage": "images/covers/book2.jpg",
+      "samplePdf": "samples/network-defense-sample.pdf",
+      "stripeLink": "https://buy.stripe.com/test_00g4j36UJdWDf7O4gg",
+      "tags": ["Network Security", "Intermediate", "Defense"],
+      "details": {
+        "pages": 240,
+        "format": "PDF, EPUB, MOBI",
+        "updated": "2024-02-28",
+        "language": "English"
+      },
+      "testimonials": [
+        {
+          "text": "The configuration templates alone are worth the price!",
+          "author": "Sam K."
+        }
+      ]
+    },
+    {
+      "id": "ccf-003",
+      "slug": "web-app-hacking-labs",
+      "title": "Web App Hacking Labs",
+      "subtitle": "Hands-On Exercises for Bug Bounty Hunters",
+      "description": "Build and hack your own intentionally vulnerable web applications to master penetration testing techniques.",
+      "longDescription": "This hands-on guide walks you through setting up a home lab environment, deploying vulnerable applications, and practicing common web vulnerabilities like SQL injection, XSS, CSRF, and SSRF. Perfect for aspiring bug bounty hunters.",
+      "price": 34.99,
+      "featured": false,
+      "coverImage": "images/covers/book3.jpg",
+      "samplePdf": "samples/web-app-hacking-sample.pdf",
+      "stripeLink": "https://buy.stripe.com/test_00g4j36UJdWDf7O4gg",
+      "tags": ["Web Security", "Labs", "Hands-On", "Bug Bounty"],
+      "details": {
+        "pages": 210,
+        "format": "PDF, EPUB, MOBI",
+        "updated": "2024-03-01",
+        "language": "English"
+      },
+      "testimonials": [
+        {
+          "text": "The hands-on approach accelerated my bug bounty skills tremendously.",
+          "author": "Jordan T."
+        }
+      ]
+    }
+  ],
+  "tags": ["Beginner", "Network Security", "Web Security", "Labs", "Mindset", "Hands-On", "Defense", "Fundamentals", "Bug Bounty", "Intermediate"]
+}
